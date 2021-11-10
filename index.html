@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="master.css" id="theme-link">
+<meta charset="utf-8">
+</head>
+<header>
+<div class="logo">
+<a href="index.html"> <img src="img/Giro.png" class="logo-img"></a><!--Логотип-->
+</div>
+<div class="hor-menu">
+<ul>
+<li><h1><a href="index.html">Главная</a></li></h1>
+<li><h1><a href="index2.html">Новости</a></li></h1>
+<li><h1><a href="index1.html">О Нас</a></li></h1>
+</ul>
+</div>
+<div class="InputBlock">
+<img src="img/wh.png" class="wh-png">
+<a href="#modal" class="button openModal"></a>
+<div id="modal" class="modal">
+<div class="text">
+</div>
+</div>		
+</div>
+<div id="modal" class="modal"><!--связь с компанией-->
+<div>
+<p>Оставьте ваш телефон<br/>и наш консультант свяжется с вами</p>
+<form id="backPhone" name="backPhone">
+<input name="telephone" type="Tel" id="telForm" maxlength="20" placeholder="Введите ваш телефон" required=”required” />
+<button id="telButton" type="submit" form="backPhone">Получить прайс </button>
+</form>
+<a href="#close" title="Закрыть">Закрыть</a>
+</div>
+</div>
+</div>
+</header>
+<body>
+<div class="wrapper"><!--смена темы-->
+    <div class="theme-button" id="theme-button"><button id="telButton" type="submit" form="backPhone">Сменить тему</button></div>
+</div>
+<div class="slaider"><!-- это слайдер, он показывает информацию по сайту -->
+<a href="#" title="Вернуться к началу" class="topbutton">
+<img src="img/back.png" alt="" class="topbutton">
+</a>
+<!-- блок слайдера -->
+<div class="carousel-wrapper">
+<span id="item-1"></span>
+<span id="item-2"></span>
+<span id="item-3"></span>
+<span id="item-4"></span>
+<!-- 1й элемент слайдера -->
+<div class="carousel-item item-1">
+<p class="slider">
+Мы обслуживаем одинаково качественно как своих гарантийных клиентов,
+так и сторонние заказы.
+</p>
+<a class="arrow arrow-prev" href="#item-4"></a>
+<a class="arrow arrow-next" href="#item-2"></a>
+</div>
+<!-- 2й элемент слайдера -->
+<div class="carousel-item item-2">
+<p class="slider">
+Если деталь сломалась — в нашем центре ее не будут ремонтировать, а
+сразу заменят на новую.
+</p>
+<a class="arrow arrow-prev" href="#item-1"></a>
+<a class="arrow arrow-next" href="#item-3"></a>
+</div>
+<!-- 3й элемент слайдера -->
+<div class="carousel-item item-3">
+<p class="slider">
+Мы работаем с крупной сетью сервисных центров, ее филиалы находятся в
+70 городах России.
+</p>
+<a class="arrow arrow-prev" href="#item-2"></a>
+<a class="arrow arrow-next" href="#item-4"></a>
+</div>
+<!-- 4й элемент слайдера -->
+<div class="carousel-item item-4">
+<p class="slider">Гарантия действует в течении 3 лет!</p>
+<a class="arrow arrow-prev" href="#item-3"></a>
+<a class="arrow arrow-next" href="#item-1"></a>
+</div>
+</div>
+</div>
+  <div class="gg">
+        <div class="products-items">
+<!-- это меню каталога -->
+<label for="all">Всё</label>
+<label for="gyro">Гироскутер</label>
+<label for="seegway">Сигвей</label>
+<label for="elsam">Электросамокат</label>
+        <!-- 1 ВКЛАДКА -->
+        <div class="col-md-8 products">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="img/tov1.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title">
+                            <a href="#">Smart Balance 6.5" Ver. 1</a>
+                        </p>
+                        <p class="product-price">Цена: 8990р</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2 ВКЛАДКА -->
+                <div class="col-sm-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="img/tov2.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title">
+                            <a href="#">KIWANO KO-X ES03</a>
+                        </p>
+                        <p class="product-price">Цена: 18900р</p>
+                    </div>
+                </div>
+                <!-- 3 ВКЛАДКА -->
+                <div class="col-sm-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="img/tov3.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title">
+                            <a href="#">Minirobot Mini PRO 36V Белый</a>
+                        </p>
+                        <p class="product-price">Цена: 15990р</p>
+                    </div>
+                </div>
+                <!-- 3 ВКЛАДКА -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="img/tov4.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title">
+                            <a href="#">Xiaomi Ninebot Min</a>
+                        </p>
+                        <p class="product-price">Цена: 22900р</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 ВКЛАДКА -->
+                <div class="col-sm-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="img/tov5.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title">
+                            <a href="#">Hili E+</a>
+                        </p>
+                        <p class="product-price">Цена: 39900р</p>
+                    </div>
+                </div>
+                <!-- 5 ВКЛАДКА -->
+                <div class="col-sm-4">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="#"><img src="img/tov6.jpg" alt=""></a>
+                        </div>
+                        <p class="product-title">
+                            <a href="#">Yamato PES MINI</a>
+                        </p>
+                        <p class="product-price">Цена: 15900р</p>
+                    </div>
+                </div>
+                <!-- 6 ВКЛАДКА -->
+          <div class="row">
+               <div class="col-sm-4">
+                   <div class="product">
+                       <div class="product-img">
+                           <a href="#"><img src="img/tov7.jpg" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                          <a href="#">KUGOO S2 (Jilong)</a>
+                      </p>
+                       <p class="product-price">Цена: 14900р</p>
+                 </div>
+              </div>
+        </div>
+    </div>
+</div>
+</body>
+<a href="#" title="Вернуться к началу" class="topbutton">
+<img src="img/back.png" alt="" class="topbutton">
+</a>
+
+<script src="themes.js"></script>
+</html>
